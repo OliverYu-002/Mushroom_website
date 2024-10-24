@@ -1,0 +1,90 @@
+p{color:black;
+    font-size: 20px;
+
+}
+body{
+  background-image:linear-gradient( rgb(74, 175, 214),rgb(19, 230, 113));
+  background-size: auto;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 0 15px 0 black
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  div {
+    img {
+        float:right;
+    }
+
+  }
+img{
+  float: left;
+}
+dd{
+  font-size: 20px;
+}
+
+dt{
+  font-size: 25px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #76BD53;
+  overflow-x: hidden;
+  padding: 8px 0;
+  margin-top: 100px;
+  box-shadow: 0 0 15px 0 #76BD53
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+  
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
